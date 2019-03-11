@@ -1,0 +1,73 @@
+html,body {
+  background: #EFF3F4;
+  font-family: 'Open Sans', serif;
+}
+.hero-body {
+  background: url("../img/beach.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-body .title {
+  color: #d4e1e9;
+  font-family: sans-serif;
+   text-shadow: -2px 10px 15px rgba(0,0,2,.3);
+}
+.subtitle {
+  color: #ffffff;
+  padding-top: 1rem;
+  line-height: 1.5;
+  font-family: "Helvetica", Arial, sans-serif;
+    text-shadow: -2px 10px 15px rgba(0,0,2,.3);
+}
+
+.hero-head {
+ /* background-color: #ADD8E6;*/
+  /*background-color: #404040;*/
+  background-color: #fff;
+}
+.hero-head li {
+  color: #006fba;
+}
+
+.hero.is-info .tabs a {
+    color: #006fba;
+    opacity: .9;
+}
+
+.title, {
+    bottom: 0;
+    left: 10px;
+    text-shadow: -2px 10px 15px rgba(0,0,0,.3);
+    font-size: 2.3em;
+    line-height: .958333em;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+.hero-homepage {
+    text-shadow: 0 0 7px rgba(0,0,0,.6);
+    margin: 0;
+    font-size: 1.25em;
+    line-height: 1.36em;
+    padding-right: 23px;
+    color: #b2d7fe;
+}
+.line {
+    -webkit-box-shadow: -2px 10px 15px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: -2px 10px 15px 0 rgba(0,0,0,.3);
+    box-shadow: -2px 10px 15px 0 rgba(0,0,0,.3);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 10px;
+    background: #fff;
+    width: 113px;
+    height: 10px;
+}
+
+.button {
+  font-family: "Helvetica", Arial, sans-serif;
+}
